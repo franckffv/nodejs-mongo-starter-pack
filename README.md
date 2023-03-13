@@ -1,5 +1,5 @@
 # nodejs-mongo-starter-pack
-Simple starter pack for a MERN APP (only backend provided here) 
+This repo is a basic example of how to strucutre you nodejs project (MERN backend only backend provided here).
 
 ## This is not production ready code.
 Update the node js package versions to the latest ones. 
