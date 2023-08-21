@@ -5,7 +5,7 @@ const connectDB = async () => {
   colors.enable();
   try {
     const conn = await mongoose.connect(process.env.MONGO_URI);
-    console.log(`MondoBD connected : ${conn.connection.host}`.cyan.underline);
+    console.log(`MongoBD connected : ${conn.connection.host}`.cyan.underline);
   } catch (error) {
     console.log(error);
     process.exit(1);
